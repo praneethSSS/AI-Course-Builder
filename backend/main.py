@@ -1,4 +1,5 @@
 # main.py
+from app.db.database import db
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
